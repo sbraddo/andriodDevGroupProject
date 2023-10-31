@@ -17,8 +17,8 @@ Musixster is a music app similiar to Flixster. The app allows users the browse m
 
 [Evaluation of your app across the following attributes]
 - **Category: Music/Entertainment** 
-- **Mobile:**
-- **Story:Musixster allows users to discover new music and see what songs are trending with other users**
+- **Mobile: Musixster shows its user songs that are currently trending and plays audio**
+- **Story: Musixster allows users to discover new music and see what songs are trending with other users**
 - **Market: Anyone who listens to music will be interested in this app. The app will appeal to people who are interested in discovering new music and trends in the industry**
 - **Habit: Users can look at the app throughout the day/week and see an updated trending page. The discover feature will have an infinite scroll so there is no shortage of music to discover**
 - **Scope: Music disvoery through trending songs and randomized list of all music available; also allows users to save songs to favorites**
@@ -29,43 +29,47 @@ Musixster is a music app similiar to Flixster. The app allows users the browse m
 
 **Required Features**
 
-1. [fill in your required user features here]
-2. ...
-3. ...
+1. User can save songs
+2. User can browse trending songs
+3. Infinite scroll on the "Explore" page
 
 **Optional Features**
 
-1. [fill in your optional user features here]
-2. ...
-3. ...
+1. User can login their own Musixster account
+2. Musixster sends notifications when a saved song enters the top 10
+3. User can search for specific songs
+4. Trending page includes top 10 artists 
 
 ### 2. Screen Archetypes
 
-- [list first screen here]
-  - [list associated required story here]
-  - ...
-- [list second screen here]
-  - [list associated required story here]
-  - ...
+- Explore Screen
+  - User can explore new songs
+  - User can save songs
+  - Infinite scroll
+  - User can search for specific songs or artists (Stretch Goal)
+- Trending Screen 
+  - Shows the top ten trending songs 
+  - Shows top ten trending artists (Stretch Goal)
+- Favorites Screen
+  - Shows the users saved songs
 
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
 
-* [fill out your first tab]
-* [fill out your second tab]
-* [fill out your third tab]
+* Favorites
+* Explore
+* Trending
 
 **Flow Navigation** (Screen to Screen)
 
-- [list first screen here]
-  - [list screen navigation here]
-  - ...
-- [list second screen here]
-  - [list screen navigation here]
-  - ...
+- Explore Screen
+  - Favorites Screen
 
 ## Wireframes
+
+[Musixster Wireframe .pdf](https://github.com/sbraddo/andriodDevGroupProject/files/13210763/Musixster.Wireframe.pdf)
+
 
 [Add picture of your hand sketched wireframes in this section] <img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
 

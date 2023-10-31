@@ -15,6 +15,8 @@
 Musixster is a music app similiar to Flixster. The app allows users the browse music, see what is trending and save songs to their favorites. 
 ### App Evaluation
 
+HackMD Brainstorming → https://hackmd.io/FcPprv0USKubREL0kZ95IA?both
+
 [Evaluation of your app across the following attributes]
 - **Category: Music/Entertainment** 
 - **Mobile: Musixster shows its user songs that are currently trending and plays audio**

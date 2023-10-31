@@ -68,7 +68,7 @@ Musixster is a music app similiar to Flixster. The app allows users the browse m
 
 ## Wireframes
 
-[Musixster Wireframe .pdf](https://github.com/sbraddo/andriodDevGroupProject/files/13210763/Musixster.Wireframe.pdf)
+![Musixster Wireframe ](https://github.com/sbraddo/andriodDevGroupProject/assets/81383505/b4004bd0-29e4-4038-a7b7-c26cb23bf915)
 
 
 [Add picture of your hand sketched wireframes in this section] <img src="YOUR_WIREFRAME_IMAGE_URL" width=600>

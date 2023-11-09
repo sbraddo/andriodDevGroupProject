@@ -88,7 +88,7 @@ HackMD Brainstorming → https://hackmd.io/FcPprv0USKubREL0kZ95IA?both
 
 [Add screenshot of your Project Board with three milestones visible in
 this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+<img width="1440" alt="Screen Shot 2023-11-09 at 3 24 54 PM" src="https://github.com/sbraddo/andriodDevGroupProject/assets/81383505/38c10f0f-605e-41d9-920d-53963c21bcf3">
 
 ## Issue cards
 

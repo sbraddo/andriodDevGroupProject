@@ -103,7 +103,10 @@ During this sprint we:
 - Created Recycler Views
 - Created items to populate the recycler views (these items will be filled with data from the API which we will begin working with in sprint 2)
 - [Add giphy that shows current build progress for Milestone 2. Note: We will be looking for progression of work between Milestone 2 and 3. Make sure your giphys are not duplicated and clearly show the change from Sprint 1 to 2.]
-[Screen Recording 2023-11-13 at 10.30.56 PM.zip](https://github.com/sbraddo/andriodDevGroupProject/files/13344193/Screen.Recording.2023-11-13.at.10.30.56.PM.zip)
+
+
+https://github.com/sbraddo/andriodDevGroupProject/assets/81383505/3e99504e-a917-42a6-a796-fce063edabf1
+
 
 <br>
 

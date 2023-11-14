@@ -88,12 +88,14 @@ HackMD Brainstorming → https://hackmd.io/FcPprv0USKubREL0kZ95IA?both
 
 [Add screenshot of your Project Board with three milestones visible in
 this section]
-<img width="1440" alt="Screen Shot 2023-11-09 at 3 24 54 PM" src="https://github.com/sbraddo/andriodDevGroupProject/assets/81383505/38c10f0f-605e-41d9-920d-53963c21bcf3">
+<img width="1440" alt="Screen Shot 2023-11-07 at 4 47 05 PM" src="https://github.com/sbraddo/andriodDevGroupProject/assets/81383505/dc223714-1e81-48ff-a7d5-9576926ffa5d">
 
 ## Issue cards
 
-- [Add screenshot of your Project Board with the issues that you've been working on for this unit's milestone] <img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
-- [Add screenshot of your Project Board with the issues that you're working on in the **NEXT sprint**. It should include issues for next unit with assigned owners.] <img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+- [Add screenshot of your Project Board with the issues that you've been working on for this unit's milestone] <img width="1440" alt="Screen Shot 2023-11-09 at 3 24 54 PM" src="https://github.com/sbraddo/andriodDevGroupProject/assets/81383505/38c10f0f-605e-41d9-920d-53963c21bcf3">
+
+- [Add screenshot of your Project Board with the issues that you're working on in the **NEXT sprint**. It should include issues for next unit with assigned owners.] <img width="1276" alt="Screen Shot 2023-11-13 at 9 59 13 PM" src="https://github.com/sbraddo/andriodDevGroupProject/assets/81383505/8366e61d-8d1c-4f22-a3f8-56d66df4d609">
+
 
 ## Issues worked on this sprint
 

@@ -114,17 +114,26 @@ https://github.com/sbraddo/andriodDevGroupProject/assets/81383505/3e99504e-a917-
 
 ## GitHub Project board
 
-[Add screenshot of your Project Board with the updated status of issues for Milestone 3. Note that these should include the updated issues you worked on for this sprint and not be a duplicate of Milestone 2 Project board.] <img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+[Add screenshot of your Project Board with the updated status of issues for Milestone 3. Note that these should include the updated issues you worked on for this sprint and not be a duplicate of Milestone 2 Project board.] 
+![Screen Shot 2023-11-21 at 11 42 55 PM](https://github.com/sbraddo/andriodDevGroupProject/assets/81383505/b693a767-639a-455f-a3fa-52080291b540)
 
 ## Completed user stories
 
-- List the completed user stories from this unit
-- List any pending user stories / any user stories you decided to cut
-from the original requirements
+- Musixster shows users trending songs
+- Musixster allows users to save songs
+- Musixster allow users to browse songs
+- Due to constraints with the API, Musixster only allows users to browse a limited number of songs. :( 
 
 [Add video/gif of your current application that shows build progress]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+
+
+https://github.com/sbraddo/andriodDevGroupProject/assets/81383505/906726a6-fff2-4996-b22a-ff0331b982d5
+
+
 
 ## App Demo Video
+
+
+
 
 - Embed the YouTube/Vimeo link of your Completed Demo Day prep video

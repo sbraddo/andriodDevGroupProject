@@ -1,6 +1,7 @@
 package com.example.musixster
 
 import android.os.Bundle
+import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
@@ -27,12 +28,45 @@ class ExploreFragment : Fragment() {
     private var param1: String? = null
     private var param2: String? = null
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        arguments?.let {
-            param1 = it.getString(ARG_PARAM1)
-            param2 = it.getString(ARG_PARAM2)
-        }
+//    override fun onCreate(savedInstanceState: Bundle?) {
+//        super.onCreate(savedInstanceState)
+//        arguments?.let {
+//            param1 = it.getString(ARG_PARAM1)
+//            param2 = it.getString(ARG_PARAM2)
+//        }
+//        onCreateView()
+//        fetchJSON()
+//    }
+
+    fun fetchJSON(){
+        Log.d("TAG","Attempting to fetch JSON")
+
+        val url = "https://billboard-api2.p.rapidapi.com/hot-100?date=2019-05-11&range=1-10"
+        val client = OkHttpClient()
+        val request = Request.Builder()
+            .url(url)
+            .get()
+            .addHeader("X-RapidAPI-Key", "ddb246746amshe7dbc6c72a11b57p18f205jsn50de5f55b2a9")
+            .addHeader("X-RapidAPI-Host", "billboard-api2.p.rapidapi.com")
+            .build()
+        client.newCall(request).enqueue(object: Callback {
+            override fun onResponse(call: Call, response: Response) {
+                val body = response?.body?.string()
+                println(body)
+                Log.d("TAG", "API request successful")
+
+                val gson = GsonBuilder().create()
+                val songs = gson.fromJson(body, SongData::class.java)
+
+                activity?.runOnUiThread {  }
+            }
+
+            override fun onFailure(call: Call, e: IOException) {
+                println("Failure to execute request")
+            }
+        })
+
+
     }
 
     override fun onCreateView(
@@ -40,54 +74,14 @@ class ExploreFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
+        Log.d("TAG","Create View")
         return inflater.inflate(R.layout.fragment_explore, container, false)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
-//        val client = OkHttpClient()
-//
-//        val request = Request.Builder()
-//            .url("https://billboard-api2.p.rapidapi.com/hot-100?date=2019-05-11&range=1-10")
-//            .get()
-//            .addHeader("X-RapidAPI-Key", "ddb246746amshe7dbc6c72a11b57p18f205jsn50de5f55b2a9")
-//            .addHeader("X-RapidAPI-Host", "billboard-api2.p.rapidapi.com")
-//            .build()
-//
-//        val response = client.newCall(request).execute()
-
-        fun fetchJSON(){
-            println("Attempting to fetch JSON")
-
-            val url = "https://billboard-api2.p.rapidapi.com/hot-100?date=2019-05-11&range=1-10"
-            val client = OkHttpClient()
-            val request = Request.Builder()
-            .url(url)
-            .get()
-            .addHeader("X-RapidAPI-Key", "ddb246746amshe7dbc6c72a11b57p18f205jsn50de5f55b2a9")
-            .addHeader("X-RapidAPI-Host", "billboard-api2.p.rapidapi.com")
-            .build()
-            client.newCall(request).enqueue(object: Callback {
-                override fun onResponse(call: Call, response: Response) {
-                    val body = response?.body?.string()
-                    println(body)
-
-                    val gson = GsonBuilder().create()
-                    val songs = gson.fromJson(body, SongData::class.java)
-
-                    activity?.runOnUiThread {  }
-                }
-
-                override fun onFailure(call: Call, e: IOException) {
-                    println("Failure to execute request")
-                }
-            })
-
-
-        }
-
-
+        Log.d("TAG","View Created")
+        fetchJSON()
     }
 }
 

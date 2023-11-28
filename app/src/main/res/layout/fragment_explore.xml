@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".ExploreFragment">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/favoritesRV"
-        android:layout_width="427dp"
-        android:layout_height="600dp"
-        android:layout_marginBottom="9dp"
+        android:id="@+id/exploreRV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="60dp"
+        android:layout_marginTop="60dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -27,7 +28,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.001" />
+        app:layout_constraintVertical_bias="0.001"
+        tools:listitem="@layout/explore_item"/>
 
     <TextView
         android:id="@+id/toolbar_title"
@@ -37,7 +39,7 @@
         android:text="˗ˏˋ EXPLORE ˎˊ˗"
         android:textColor="@color/white"
         android:textSize="35dp"
-        app:layout_constraintBottom_toBottomOf="@+id/favoritesRV"
+        app:layout_constraintBottom_toBottomOf="@+id/exploreRV"
         app:layout_constraintEnd_toEndOf="@+id/favoritesToolbar"
         app:layout_constraintHorizontal_bias="0.487"
         app:layout_constraintStart_toStartOf="@+id/favoritesToolbar"

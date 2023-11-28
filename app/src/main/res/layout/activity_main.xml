@@ -26,4 +26,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:menu="@menu/bottom_navigation" />
 
+
+<!--    <androidx.fragment.app.FragmentContainerView-->
+<!--        android:layout_marginTop="?attr/actionBarSize"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:id="@+id/explore_container"-->
+<!--        android:elevation="9dp"-->
+<!--        tools:layout="@layout/fragment_explore" />-->
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
